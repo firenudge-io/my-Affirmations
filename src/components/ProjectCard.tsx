@@ -23,7 +23,7 @@ export const ProjectCard = () => {
     fetchData();
 
     return (
-        <div className="h-56 w-3/4 lg:w-10/12 bg-gray-50 dark:bg-gray-800 text-center p-10 rounded-xl shadow-md mx-auto">
+        <div className="h-56 w-3/4 lg:w-10/12 bg-gray-50 dark:bg-gray-800 text-center p-10 shadow-md shadow-gray-200 dark:shadow-gray-600 rounded-xl mx-auto">
 
 
             {
@@ -42,7 +42,7 @@ export const ProjectCard = () => {
                         <div className="flex flex-row justify-around mt-10">
                             {
                                 num === 0 ?
-                                    <button type="button" className="py-2.5 px-5 mr-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-gray-100 rounded-lg border border-gray-200  focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-700 dark:text-gray-400 dark:border-gray-600 cursor-not-allowed" disabled>
+                                    <button type="button" className="py-2.5 px-5 mr-2 mb-2 text-sm font-medium text-gray-300 focus:outline-none bg-gray-100 rounded-lg border border-gray-200  focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-700 dark:text-gray-400 dark:border-gray-600 cursor-not-allowed" disabled>
                                         Prev
                                     </button>
                                     :
@@ -59,7 +59,7 @@ export const ProjectCard = () => {
 
                             {
                                 num === max ?
-                                    <button type="button" className="text-white bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-blue-600 focus:outline-none dark:focus:ring-blue-800 cursor-not-allowed" disabled>
+                                    <button type="button" className="text-gray-400 bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-blue-600 focus:outline-none dark:focus:ring-blue-800 cursor-not-allowed" disabled>
                                         Next
                                     </button>
                                     :
