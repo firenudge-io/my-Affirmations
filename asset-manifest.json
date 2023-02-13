@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/my-Affirmations/static/css/main.b2f7d59a.css",
-    "main.js": "/my-Affirmations/static/js/main.dea9630d.js",
+    "main.css": "/my-Affirmations/static/css/main.32b9b59b.css",
+    "main.js": "/my-Affirmations/static/js/main.9d4b18a3.js",
     "index.html": "/my-Affirmations/index.html",
-    "main.b2f7d59a.css.map": "/my-Affirmations/static/css/main.b2f7d59a.css.map",
-    "main.dea9630d.js.map": "/my-Affirmations/static/js/main.dea9630d.js.map"
+    "main.32b9b59b.css.map": "/my-Affirmations/static/css/main.32b9b59b.css.map",
+    "main.9d4b18a3.js.map": "/my-Affirmations/static/js/main.9d4b18a3.js.map"
   },
   "entrypoints": [
-    "static/css/main.b2f7d59a.css",
-    "static/js/main.dea9630d.js"
+    "static/css/main.32b9b59b.css",
+    "static/js/main.9d4b18a3.js"
   ]
 }
